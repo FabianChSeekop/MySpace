@@ -279,3 +279,33 @@ body {
     border-color: red transparent transparent transparent;
   }
 }
+
+@media (max-width: 768px) {
+  .content-jarvis {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .content-jarvis {
+    width: 100%;
+  }
+
+  .jarvis-extern-inner{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+@media (min-width: 1400px) {
+}
